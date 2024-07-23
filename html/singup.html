@@ -6,20 +6,21 @@
         <link href="../css/login.css" rel="stylesheet">
         <script src="../js/login.js" ></script>
 
-        <a href="nani.html" id="nani"></a>
+
+        
 
     </head>
 
     <body background="">
         <div class="container" align="center">
-<div class="login">
+<div class="signup">
 
-    <div class="login_label">
+    <div class="signup_label">
         <div><img src="../Asserts/Img/user-login-icon.png" class="custom_img" alt="login_icon"></div>
         <div class="login_label_text" >Please Login </div>
     </div>
 
-    <div class="allForm_login">
+    <div class="allForm_signup">
 
 <div class="username_div">
     <label for="username">
@@ -31,17 +32,36 @@
         <label>
             Password
         </label>
-        <span><input type="text" placeholder="Enter Password " id="password" class="input_fields"></span>
-    
+        <span><input type="password" placeholder="Enter Password " id="password" class="input_fields"></span>
+      </div>
+
+      <div class="password_div">
+        <label>
+            Mobile No
+        </label>
+        <span><input type="text" placeholder="Enter Mobile Number " id="password" class="input_fields"></span>
+      </div>
+
+      <div class="password_div">
+        <label>
+            Address
+        </label>
+        <span><input type="text" placeholder="Enter Your Address " id="password" class="input_fields"></span>
       </div>
        
+      <div class="password_div">
+        <label>
+            Mail Id
+        </label>
+        <span><input type="text" placeholder="Enter Your Mail Id " id="password" class="input_fields"></span>
+      </div>
 
       <div class="forgot_singup">
         <span style="margin-right: 199px;"><a href="singup.html">Please singup</a></span>
         <span><a href="forgot.html">Forgot Password?</a></span>
       </div>
       <div class="login_cancel_div">
-        <div><button onclick="login_user()" class="login_button">Login</button>
+        <div><button onclick="signup()" class="login_button">Create</button>
             <span><button onclick="cancel()" class="cancel_button">Cancle</button></span></div>
       </div>
       
@@ -52,6 +72,7 @@
     
 </div>
         </div>
+
 
     </body>
 </html>
